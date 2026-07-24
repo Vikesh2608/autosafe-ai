@@ -216,3 +216,34 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ========================================
+# AutoSafe AI
+# ========================================
+
+# Virtual Environment
+backend/.venv/
+
+# VS Code
+.vscode/
+
+# Local environment files
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# SQLite (for local testing only)
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
